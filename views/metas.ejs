@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/gridvoltar.css">
+    <title>METAS</title>
+</head>
+<body>
+    <a href="/">Voltar</a>
+    <h1>Cadastro de metas</h1>
+        <th>Metas:</th>
+    <form action="" method="post">
+        <textarea name="texto" id="" cols="30" rows="10"required></textarea><br>
+        <input type="submit" value="SALVAR">
+    </form>
+
+        <div>
+            <% for (var n=0; n<dados.length; n++){%>
+                <tr>
+                    <p><%=n+1%></p>
+                    <td><%=dados[n].texto%></td>
+                </tr>
+                <%}%>
+        </div>
+</body>
+</html>

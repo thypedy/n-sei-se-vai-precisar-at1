@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color: #695656;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    font-size: 1.5rem;
+}
+
+a:hover{
+    background: #ffffff;
+    color: #da0f0ff2;
+}
